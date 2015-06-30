@@ -1,0 +1,46 @@
+<!--
+  Copyright (c) 2007 Jacobo Rouces <jacobo@rouces.org>.
+  
+  This file is part of JTennis.
+  
+  JTennis is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  JTennis is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+   along with JTennis.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.rouces.jac</groupId>
+  <artifactId>JTennis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JTennis</name>
+  <description>Java Tennis Game with very simple 3D engine.</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.media</groupId>
+  		<artifactId>jmf</artifactId>
+  		<version>2.1.1e</version>
+  	</dependency>
+  </dependencies>
+</project>
