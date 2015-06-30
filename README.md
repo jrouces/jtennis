@@ -12,6 +12,8 @@ The main class is Ventana. The only dependency is JMF. It is tested on Java 1.6.
 
 The game implements a very simple 3d engine from scratch, which was never meant to be efficient but rather showcase OOP concepts applied to basic linear algebra concepts. 
 
+![Screenshot](/screenshot1.png "Screenshot")
+
 Control
 -------
 
