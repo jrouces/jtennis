@@ -15,7 +15,7 @@ The game implements a very simple 3d engine from scratch, which was never meant 
 Control
 -------
 
-The player movements are controlled with typical arrow keys and the ball, when hit, is sent with a speed vector that is a weighted sum of the incoming speed vector and the 3D force vector produced, the latter being obtained from the 2D speed vector of the mouse in the moment of the impact, composed with a tilt angle that can be controlled with the mouse wheel at any point of the game (so it is a bit like hitting the ball with the mouse while holding it on a tilted surface that is controled with the scroll wheel). There is a constant but rudimentary visual feedback for these components. 
+The player movements are controlled with typical arrow keys and the ball, when hit, is sent with a speed vector that is a weighted sum of the incoming speed vector and the 3D force vector exerted by the player. The latter is obtained from the 2D speed vector of the mouse in the moment of the impact, with an added tilt angle that can be controlled with the mouse scroll wheel at any point of the game. The result is a bit like hitting the ball with the mouse while holding it on a surface whose tilt is controled with the scroll wheel. There is a constant but rudimentary visual feedback for these components. 
 
 The method was meant to provide richer control than old-fashioned combinations of buttons, and to exploit the analog nature of the mouse, while not needing any complex 3D input device. It is the part of the game that I considered really innovative. I am not an expert in computer games, but during my occasional experience in the late nineties and early 2000s, I did not encounter a similar control system.
 
