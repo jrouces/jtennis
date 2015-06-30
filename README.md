@@ -12,8 +12,6 @@ The main class is Ventana. The only dependency is JMF. It is tested on Java 1.6.
 
 The game implements a very simple 3d engine from scratch, which was never meant to be efficient but rather showcase OOP concepts applied to basic linear algebra concepts. 
 
-![Screenshot](/screenshot1.png "Screenshot")
-
 Control
 -------
 
@@ -25,3 +23,5 @@ Artificial "Intelligence"
 ------------------------
 
 The machine knows the physics of the ball and can predict its deterministic trajectory assuming no further intervention from a human player. Different levels of difficulty add different levels of noise to impair this "cognitive" ability from the machine, but its physical abilities remain equal to the human player's. In the hardest mode, where the noise introduced is very small, the machine becomes practically impossible to beat -if you are able to do so, please let me know!
+
+![Screenshot](/screenshot1.png "Screenshot")
